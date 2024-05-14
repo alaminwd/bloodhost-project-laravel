@@ -1,0 +1,1681 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  line-height: 0.8;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title{ 
+  text-align: center;
+  color: var(--h);
+  margin-bottom: 80px;
+}
+.title h2{
+  font-size: 60px ;
+  font-weight: 700;
+  position: relative;
+}
+.title h2::after{
+    background-image: url(../images/separator.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    height: 24px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    top: 55px;
+    width: 150px;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 0.8;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html,
+body {
+  scroll-behavior: unset !important;
+}
+
+:root {
+  --h: #17173A;
+  --p: #505050;
+}
+
+/* ==================== common css end =================== */
+
+/* ============= Back To Top Button Part  css start =============== */
+
+/* Style for scroll-top button */
+.backToTopBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border: none;
+  color: #cccccc;
+  border-radius: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.backToTopBtn:not(:hover) {
+  background: #FF0000;
+}
+.backToTopBtn:hover {
+  background: var(--h);
+}
+
+/* ============= Back To Top Button Part  css End ============== */
+
+/* ==================== header css start =================== */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  position: relative;
+  font-size: 18px;
+  padding-right: 0;
+  padding-left: 0;
+  color: var(--h);
+  font-weight: 600;
+  margin-left: 30px;
+  transition: all linear .3s;
+  text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: ' ';
+  background: #FF0000;
+  opacity: 0;
+  transition: .5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #FF0000;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+  opacity: 1;
+  top: 35px;
+}
+
+.navbar{
+  height: 80px !important;
+}
+
+
+/* ----- menu fix ----- */
+.menu_fix {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  animation: menu 1s;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  height: 80px !important;
+}
+
+@-webkit-keyframes menu {
+  0% {
+      top: -100px;
+      left: 0;
+  }
+
+  100% {
+      top: 0;
+      left: 0;
+  }
+}
+
+@keyframes menu {
+  0% {
+      top: -100px;
+      left: 0;
+  }
+
+  100% {
+      top: 0;
+      left: 0;
+  }
+}
+
+.login_btn .help_us{
+  margin-right: 15px;
+  background: #FF0000;
+  font-weight: 500;
+  padding: 8px 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dropdown-menu {
+	min-width: 100%;
+}
+
+.login_btn .login_regis{
+  padding: 8px 25px;
+  background: var(--h);
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+/* ==================== header css end =================== */
+
+/* ==================== banner css start =================== */
+.banner_slider{
+  padding: 150px 0;
+  background: linear-gradient(to top, rgba(68, 1, 1, 0.8), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg') no-repeat center/cover fixed;
+}
+.banner2{
+  background: linear-gradient(to top, rgba(68, 1, 1, 0.8), rgba(0, 0, 0, 0.5)), url('../images/banner2.jpg') no-repeat center/cover fixed;
+}
+.banner_content h1{
+  color: #fff;
+  font-size:75px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.banner_content h3{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.banner_content a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background: #FF0000;
+  margin-top: 40px;
+  transition: all linear .3s;
+}
+.banner_content a:hover{
+  background: var(--h);
+  transform: scale(.9);
+}
+/* ==================== banner css end =================== */
+
+
+/* ==================== Avaiable Blood  css start =================== */
+
+#blood_doners{
+  padding: 100px 0 80px;
+}
+#blood_doners .blood_main{
+  padding: 40px 0;
+  background: var(--h);
+  border-radius: 10px;
+  transition: all linear .3s;
+}
+#blood_doners .blood_main:hover{
+  transform: translateY(-10px);
+}
+#blood_doners a{
+  display: block;
+}
+#blood_doners .blood_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blood_doners .blood_single_name{
+  font-size: 35px;
+  font-weight: 800;
+  color: #fff;
+ 
+}
+#blood_doners .blood_amount {
+  padding-top: 15px;
+  font-size: 20px;
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* ====================Blood Donerss end =================== */
+
+/* ==================== About css start ================ */
+#about_part{
+  padding-bottom: 100px;
+}
+
+#about_part .about_content{
+  text-align: justify;
+  margin-right: 30px;
+}
+#about_part .about_content h4{
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--h);
+  line-height: 35px;
+  
+}
+#about_part .about_content p{
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--p);
+  line-height: 26px;
+}
+.about_item{
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.about_item_icon i{
+  background: #FF0000;
+  height: 60px;
+  width: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.about_item_content{
+  margin-left: 20px;
+}
+.about_item_content h4{
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--h);
+  padding-bottom: 10px;
+}
+.about_item_content p{
+  font-size: 18px;
+  color: var(--p);
+  font-weight: 400;
+  text-align: justify;
+  line-height: 26px;
+}
+#about_part .about_btn a{
+  padding: 11px 30px;
+  background: #FF0000;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* ================= About Part css end ===============*/
+
+/* ================= Donors Part css start ============== */
+
+#our_donor{
+  padding-bottom: 75px;
+}
+#our_donor .donor_item{
+  border:  1px solid #ddd;
+  margin: 0 15px;
+  
+}
+.donor_item a{
+  display: block;
+}
+.donor_text{
+  position: relative;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.donor_text::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    content: "";
+    background: #FF0000;
+    z-index: -1;
+    transition: all linear .3s;
+}
+.donor_item:hover .donor_text::after {
+  width: 100%;
+}
+.donor_item:hover .donor_text_boody p{
+  color: #fff;
+}
+.donor_item:hover .donor_text_boody h4{
+  color: #fff;
+}
+.donor_text_boody p{
+  color: var(--p);
+  font-size: 18px;
+  font-weight: 500;
+}
+.donor_text_boody h4 {
+  color: var(--h);
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  line-height: 24px;
+}
+.donor_text_btn i{
+  height: 40px;
+  width: 40px;
+  background-color: #e6f9f5;
+  color: #FF0000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  transform: rotate(-45deg);
+  transition: all linear .3s;
+}
+.donor_item:hover .donor_text_btn i{
+  background-color: var(--h);
+  color: #fff;
+  transform: rotate(0deg);
+}
+.donor_img{
+  overflow: hidden;
+  height: 300px;
+}
+
+.donor_img img{
+  transition: all linear .3s;
+}
+.donor_item:hover .donor_img img {
+  transform: scale(1.1);
+}
+#our_donor .next {
+  background: transparent;
+  color: #2d3e50;
+  font-size: 16px;
+  position: absolute;
+  right: -7.5%;
+  top: 45%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: .5s;
+}
+#our_donor .next:hover{
+  background: #FF0000;
+  color: #fff;
+}
+#our_donor .prev:hover{
+  background: #FF0000;
+  color: #fff;
+}
+#our_donor .prev {
+  background: transparent;
+  color: #2d3e50;
+  font-size: 16px;
+  position: absolute;
+  left: -30px;
+  top: 45%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: .5s;
+}
+
+
+
+/* =============== Donors Part  css end ============== */
+
+/* ============ profile ============== */
+.profile_span{
+  position: relative;
+  display: inline-block;
+  width: 30%;
+
+}
+.profile_span2{
+  width: 70%;
+  display: inline-block;
+  height: auto;
+  line-height: 24px;
+}
+.profile_span::after {
+	position: absolute;
+	top: -4px;
+	right: 10px;
+	color: var(--h);
+	content: ':';
+	font-size: 24px;
+}
+
+
+
+/* =============Counter Part  css Start  ============= */
+#counter_part{
+  padding-top: 80px;
+}
+#counter_part .counter_gap{
+  padding-bottom: 80px;
+}
+
+#counter_part .counter_item .fa-solid {
+  border-radius: 0;
+  font-size: 50px;
+  line-height: 50px;
+  color: #FF0000;
+  top: 0px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#counter_part .counter_item .counter{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+#counter_part .counter_item h4{
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+/* ========Blood Donation Processs Part css start =========*/
+#donation_process{
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+#donation_process .process_icon {
+  background: #FF0000;
+  height: 70px;
+  width: 70px;
+  margin-left: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#donation_process .process_icon i{
+  font-size: 35px;
+}
+.process_info h4{
+  color: var(--h);
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+ 
+}
+
+/* =============== testimonial  Donor Review css start ============ */
+/* #testimonial{
+  background: #3f6287;
+} */
+.test_cmn{
+  padding-bottom: 100px;
+}
+.header_test h3::after {
+  left: 55px;
+}
+
+.header_test p {
+  margin-bottom: 65px;
+}
+
+.header_test h3 .cmn_span {
+  left: -70px !important;
+}
+
+.header_test h3::before {
+  right: 45px;
+}
+
+.test_web_col {
+  margin-bottom: 100px;
+}
+
+.test_col {
+  margin: 0 12px;
+  height: 365px;
+}
+#testimonial .test_item {
+  padding: 50px 30px 30px;
+  background: var(--h);
+  position: relative;
+  margin-top: 90px;
+  border-radius: 10px;
+  transition: all linear .3s;
+}
+
+#testimonial .test_item:hover {
+  background: linear-gradient(to top, rgba(232, 6, 6, 1), rgba(221, 79, 79, 1));
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+#testimonial .test_item:hover .test_img {
+  border-color: #FF0000;
+}
+#testimonial .test_item .test_img {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border-radius: 50% !important;
+  align-items: center;
+  border-radius: 5px;
+  z-index: 99;
+  transition: all linear .3s;
+}
+
+#testimonial .test_item .test_content {
+  margin-left: 0;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+#testimonial .test_item .test_content h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--ff1);
+  margin-bottom: 5px;
+}
+
+#testimonial .test_item .test_content h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--ff2);
+  margin-bottom: 5px;
+}
+
+#testimonial .test_item p {
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: justify;
+  font-family: var(--ff2);
+  margin-top: 27px;
+  line-height: 24px;
+}
+
+#testimonial .test_item .test_content .test_icon {
+  color: var(--h);
+  font-size: 16px;
+}
+
+/* =============== testimonial  Donor Review css start ============ */
+
+/*--------------------------------
+Blog
+----------------------------------*/
+.thumbnail-blog{
+  margin: 0 12px;
+}
+.sec-blog h2,
+.sec-blog-list h2 {
+  margin-top: 13px;
+}
+
+.sec-blog [class^='col-'],
+.sec-blog-list [class^='col-'] {
+  margin-bottom: 30px;
+}
+
+.sec-blog .thumbnail-blog,
+.sec-blog-list .thumbnail-blog {
+  padding: 30px 20px 35px 30px;
+  text-align: left;
+  background-color: #f9f9f9;
+  min-height: 465px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.sec-blog .thumbnail-blog:hover,
+.sec-blog-list .thumbnail-blog:hover {
+  -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sec-blog .thumbnail-blog.active,
+.sec-blog-list .thumbnail-blog.active {
+  -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sec-blog .thumbnail-blog .thumbnail-img,
+.sec-blog-list .thumbnail-blog .thumbnail-img {
+  margin: -30px -20px 0px -30px;
+  position: relative;
+  height: 275px;
+  text-align: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.sec-blog .thumbnail-blog a > h5,
+.sec-blog-list .thumbnail-blog a > h5 {
+  text-transform: uppercase;
+  line-height: 1.667;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 22px;
+  color: var(--h);
+}
+
+.sec-blog .thumbnail-blog a:focus,
+.sec-blog-list .thumbnail-blog a:focus {
+  text-decoration: none;
+}
+
+.sec-blog .thumbnail-blog h6,
+.sec-blog-list .thumbnail-blog h6 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5rem;
+  padding-top: 10px;
+  color: #bebebe;
+}
+
+.sec-blog .thumbnail-blog p,
+.sec-blog-list .thumbnail-blog p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: #666666;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sec-blog .thumbnail-blog p + a,
+.sec-blog-list .thumbnail-blog p + a {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fb3640;
+}
+
+.sec-blog .container > a,
+.sec-blog-list .container > a {
+  margin-top: 53px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  height: 50px;
+  width: 180px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background-color: #4776e6;
+  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  text-transform: uppercase;
+  color: #4776e6;
+}
+
+.sec-blog .container > a::before,
+.sec-blog-list .container > a::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  top: 2px;
+  left: 2px;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  background-color: white;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.sec-blog .container > a span,
+.sec-blog-list .container > a span {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+
+.sec-blog .container > a:hover::before,
+.sec-blog-list .container > a:hover::before {
+  background-color: transparent;
+}
+
+.sec-blog .container > a:hover span,
+.sec-blog-list .container > a:hover span {
+  color: white;
+}
+
+.sec-blog.horizontal .thumbnail-blog .thumbnail-img::after,
+.horizontal.sec-blog-list .thumbnail-blog .thumbnail-img::after {
+  content: none;
+  display: none;
+}
+
+.sec-blog.solid .thumbnail-blog p + a,
+.solid.sec-blog-list .thumbnail-blog p + a {
+  color: #725ce6;
+}
+
+.sec-blog.solid .container > a,
+.solid.sec-blog-list .container > a {
+  background-image: none;
+  background-color: #725ce6;
+  color: #725ce6;
+}
+
+/*--------------------------------
+End Blog
+
+/* =============== Contact-us Part css start ============ */
+/* .shade--bg {
+  padding: 100px 0px;
+  background: linear-gradient(to bottom, rgba(251, 54, 64, 0.15), #fff);
+}
+.section-header {
+  margin-bottom: 2.8125rem;
+}
+.text--base {
+  color: #31173a;
+  font-size: 20px;
+}
+.section-title {
+  padding-top: 20px;
+  font-size: 2.625rem;
+  font-weight: 700;
+}
+.section--bg2{
+  background-color: #17173a;
+}
+.contact-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(251, 54, 64, 0.15);
+}
+.contact-wrapper-content {
+  padding: 40px;
+}
+.contact-wrapper-content > .title {
+  text-align: left;
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 3px;
+}
+.contact-icon{
+  font-size: 25px;
+}
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contact-info-list .single-info {
+  padding: 12px 0;
+}
+.text--danger {
+  color: #ea5455 !important;
+}
+.single-info__content {
+  width: calc(100% - 40px);
+  padding-left: 1.5625rem;
+}
+.single-info__content p, .single-info__content a {
+  color: rgb(240, 240, 240);
+  line-height: 1.6rem;
+}
+.map-area iframe {
+  width: 100%;
+  height: 200px;
+  margin-bottom: -10px;
+  border-radius: 20px;
+}
+
+.contact-form {
+  padding: 40px;
+}
+.form-group {
+  margin-bottom: 0.9375rem;
+}
+.form--control:placeholder-shown {
+  border-color: lightgray;
+  color: #505050;
+}
+.form--control {
+  margin-top: 10px;
+  padding: 0.625rem 1.25rem;
+  border: 1px solid #FB3640;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  color: #000;
+  height: 3.125rem;
+}
+textarea {
+  min-height: 9.375rem !important;
+  resize: none;
+  width: 100%;
+} */
+/* =============== Contact-us Part css End ============ */
+
+
+/* =============== Footer Part css start ============ */
+
+.footer_top{
+  padding: 60px 0 ;
+}
+.footer_top .footer_contact{
+  margin-left: 30px;
+}
+.footer_item p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.footer_item h3{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.footer_item ul li a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  transition: all linear .3s;
+}
+.footer_item ul li a i {
+	color: #fff;
+	font-size: 16px;
+	transition: all linear .3s;
+  margin-right: 5px;
+}
+.footer_item ul li a:hover {
+  color: #FF0000;
+}
+.footer_item ul li a:hover i{
+  color: #FF0000;
+}
+.footer_item_content a{
+  padding-left: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  transition: all linear .3s;
+}
+.footer_item_icon a{
+  color: #FF0000;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 5px;
+  margin-top: 20px;
+  transition: all linear .3s;
+}
+.footer_item_icon a:hover{
+  color: #fff;
+  background: #FF0000;
+  box-sizing: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.footer_item_content a:hover{
+  color: #FF0000;
+}
+.footer_item_content{
+  position: relative;
+  margin-bottom: 10px;
+}
+.footer_last img{
+  margin-bottom: 24px;
+}
+.footer_item_content a i{
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.footer_item3{
+  margin-left: 20px;
+}
+.footer_btm{
+  padding: 30px 0;
+  border-top: 1px solid #ddd;
+}
+.foot_btm_content p{
+ color: #fff;
+ font-weight: 400;
+ font-size: 16px;
+}
+.foot_btm_content p a{
+ color: #FF0000;
+}
+/* ============= Footer Part  css end =============== */
+
+
+
+
+
+/* ==================================
+      About Page Start 
+=====================================*/
+
+
+#about_banner{
+    padding: 100px 0;
+}
+.about_banner_content{
+  color: #fff;
+}
+.about_banner_content h4{
+  font-size: 30px;
+  font-weight: 700;
+}
+.about_banner_content ul li{
+  margin: 0 15px; 
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700; 
+}
+.about_banner_content ul li i{
+  font-size: 20px;
+  margin-right: 5px;
+  color: #FF0000;
+}
+.about_banner_content ul li a{
+  position: relative;
+  color: #fff;
+}
+.about_banner_content ul li a::after{
+  position: absolute;
+  top: 12px;
+  right: -25px;
+  height: 2px;
+  width: 20px;
+  background: #FF0000;
+  content: "";
+}
+
+/* ================Donors Details Part Start ================ */
+#donors_info{
+  background: linear-gradient(to bottom, rgba(251, 54, 64, 0.15), #fff);
+  padding: 70px 0;
+}
+#donors_info img{
+  height: 120px;
+  width: 120px;
+}
+#donors_info .card{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.donors_content{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.donors_content h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--h);
+}
+.donors_content ul li{
+  font-size: 15px;
+  color: var(--p);
+  font-weight: 500;
+  padding: 2px 0;
+}
+.donors_content ul li i{
+  margin-right: 10px;
+}
+.donors_content ul li span{
+  color: #FF0000;
+}
+.donors_content ul li a{
+  margin-right: 10px;
+  color: var(--p);
+  font-size: 14px;
+  font-weight: 500;
+  color: #FF0000;
+}
+.donors_content ul li .next{
+  color: #FF0000;
+  margin-top: 2px;
+}
+
+/* ================Contact Page Start ================= */
+
+
+#contact_us{
+  padding: 80px 0;
+  background: linear-gradient(to bottom, rgba(251, 54, 64, 0.15), #fff);
+}
+#contact_us .contact_main{
+  position: relative;
+  background: #fff;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 10px;
+  padding: 50px 40px 20px;
+}
+#contact_us .contact_main::after {
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  width: 5px;
+  height: 60px;
+  background: #FF0000;
+  content: "";
+ 
+}
+#contact_us .contact_main h2{
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--h);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#contact_us .contact_main h3{
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: var(--p);
+}
+#contact_us .contact_main span{
+  display: block;
+  padding-top: 15px ;
+  
+}
+#contact_us .left_item{
+    margin-bottom: 40px;
+}
+#contact_us .contact_icon{
+    margin-right: 20px;
+    color: #FF0000;
+}
+#contact_us .contact_icon i{
+  font-size: 20px;
+}
+#contact_us .contact_text h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--h);
+  padding-bottom: 10px;
+}
+#contact_us .contact_text p{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--p);
+ 
+}
+#contact_us .message{
+  background: #fff;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 10px;
+  padding: 30px 40px ;
+  height: auto;
+}
+.card {
+  border: none;
+}
+
+#contact_us .card input{
+  box-shadow: none;
+}
+#contact_us .card-body button{
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 25px; 
+  border: none;
+  border-radius: 5px;
+  background: #FF0000;
+}
+
+
+
+/* =============================
+    Single Donor Page start
+=============================== */
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	display: none !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+	padding-top: 5px !important;
+}
+.select2-container .select2-selection--single {
+	height: 38px !important;
+}
+ .select2-container {
+	width: 100% !important;
+}
+.donor_banner {
+  padding-bottom: 0 !important;
+}
+.search{
+  margin-top: 80px;
+  padding: 40px 60px 20px;
+  background: #17173A;
+}
+.search_item {
+  margin-bottom: 20px;
+}
+.search_item label{
+  color: #fff;
+  font-size: 16px;
+}
+
+#donor_details{
+  background: linear-gradient(to bottom, rgba(251, 54, 64, 0.15), #fff);
+  padding: 80px 0;
+}
+#donor_details .card{
+  background: #fff;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  padding: 30px 20px;
+}
+#donor_details .card-header {
+  background-color: #fff; 
+  border-bottom: 0; 
+}
+#donor_details .card-body{
+  margin-left: 15px;
+}
+#donor_details .card-header h4{
+  font-size: 26px;
+  font-weight: 700;
+}
+#donor_details .caption{
+  width: 20%;
+  position: relative;
+}
+
+#donor_details .caption p{
+  font-size: 18px;
+  font-weight: 700;
+}
+#donor_details .value{
+  width: 80%;
+ padding-left: 20px;
+}
+#donor_details .value p{
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--p);
+}
+#donor_details .donor_item{
+  padding: 18px 0;
+}
+
+
+
+/* =============================
+    Single Donor Page start
+=============================== */
+
+.donor_img img{
+  border-radius: 3px;
+}
+.donor_profile_content{
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+.donor_profile_content h4{
+  font-size: 30px;
+  font-weight: 600;
+ 
+}
+.donor_profile_content p{
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+.donor_profile_content p::after {
+  position: absolute;
+  top: 23px;
+  left: 48%;
+  content: "";
+  color: #ddd;
+}
+.donor_profile_content span{
+  margin-left: 10px;
+}
+.donor_profile_content i{
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.donor_profile_content ul li{
+  margin: 0 5px;
+}
+.donor_profile_content ul li i{
+  color: #fff;
+
+}
+
+#donor_details{
+  background: linear-gradient(to bottom, rgba(251, 54, 64, 0.15), #fff);
+  padding: 80px 0;
+}
+#donor_details .card{
+  background: #fff;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  padding: 30px 20px;
+}
+#donor_details .card-header {
+  background-color: #fff; 
+  border-bottom: 0; 
+}
+#donor_details .card-body{
+  margin-left: 15px;
+}
+#donor_details .card-header h4{
+  font-size: 26px;
+  font-weight: 700;
+}
+#donor_details .caption{
+  width: 20%;
+  position: relative;
+}
+#donor_details .caption::after{
+  position: absolute;
+  top: -20px;
+  right: 0;
+  color: var(--h);
+  content: ':';
+  font-size: 30px;
+}
+#donor_details .caption p{
+  font-size: 17px;
+  font-weight: 600;
+}
+#donor_details .value{
+  width: 80%;
+ padding-left: 20px;
+}
+#donor_details .value p{
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--p);
+}
+#donor_details .donor_item{
+  padding: 18px 0;
+}
+#donor_details form {
+  border-radius: 10px;
+  height: auto;
+}
+
+
+/* ================================
+    Blog Details page
+====================================*/
+
+
+.section-space {
+  padding: 100px 0px;
+}
+.section-space .blog-post-date{
+  margin: 15px 0;
+  color: #FF0000;
+}
+.details-poster img{
+  height: 500px;
+  width: 700px;
+}
+.section-space .blog-post-date p{
+  font-size: 16px;
+  font-weight: 500;
+}
+.blog-details h2{
+  font-size: 48px;
+  line-height: 66px;
+  font-weight: 700;
+  color: #111;
+  margin-top: -12px;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+.blog-details .descender{
+  margin-bottom: 15px;
+}
+.blog-post-date p{
+  color: #FF0000;
+}
+.blog-details p{
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--p);
+  text-align: justify;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.blog-details .note p {
+  font-size: 17px;
+  color: var(--p);
+  font-weight: 400;
+}
+
+.blog-details .post__tags {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+p.tertiary{
+  font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: var(--p);
+    margin-top:30px ;
+}
+.follow_links {
+  display: flex;
+}
+.follow_links h4 {
+  margin: 20px 0;
+}
+.follow_links .social {
+  border-top: 1px solid --p;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 30px;
+}
+.social a {
+  background-color: #111 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s;
+  color: #fff;
+  font-size: 20px;
+  transition: all linear .5s;
+}
+.social a:hover{
+  background: #FF0000 !important;
+  color: #fff;
+}
+.quick_Link {
+  padding-top: 50px;
+  display: flex;
+}
+.quick_Link h4 {
+  margin-bottom: 26px;
+}
+.quick_Link ul {
+  margin-left: 50px;
+  margin-top: -15px;
+  display: flex;
+}
+.quick_Link li {
+  padding: 14px 10px;
+  
+}
+.quick_Link li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+}
+.quick_Link li a:hover {
+  color: #FF0000;
+}
+
+
+/* =============== Donor-Profile Start css start ============ */
+#donor-profile{
+  padding: 80px 0px;
+  
+}
+#donor-profile .card-header {
+  background-color: transparent;
+  border-bottom: 0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#donor-profile .card-header h3{
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--h);
+  position: relative;
+}
+#donor-profile .card-header h3::after {
+    position: absolute;
+    background-image: url(../images/separator.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    height: 24px;
+    left: 50%;
+    top: 35px;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+#donor-profile .card {
+  background-color: #fff;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px 15px 0 15px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+#donor-profile  .card-body {
+  padding: 0;
+}
+#donor-profile .user_content {
+  text-align: center;
+  margin-top: 18px;
+}
+#donor-profile .user_content h5{
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--h);
+ 
+}
+#donor-profile .user_img {
+  display: flex;
+  justify-content: center;
+}
+#donor-profile .user_details{
+    margin: 40px 20px;
+}
+#donor-profile .user_details p{
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--p);
+  padding: 10px 0;
+}
+#donor-profile .user_details p i{
+  margin-right: 20px;
+}
+#donor-profile .user_edit_form .card{
+  padding: 25px 30px;
+}
+#donor-profile .user_edit_form h3{
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--h);
+  position: relative;
+}
+#donor-profile .user_edit_form h3::after {
+  position: absolute;
+    background-image: url(../images/separator.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    height: 24px;
+    left: 50%;
+    top: 35px;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+#donor-profile .user_edit_form button{
+  color: #fff;
+  background-color: var(--h);
+  border-color: #212529;
+  width: 100%;
+}
+
+/* =============== Donor-Profile Start css End ============ */
+
+
+
+/* ===========Login  Form Part ============  */
+#simple-form{
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+#simple-form .card-header {
+  text-align: center;
+  background: transparent;
+}
+#simple-form .card-header h3{
+  color: var(--h);
+  font-size: 25px;
+  font-weight: 600;
+}
+#simple-form .user_form{
+  height: auto;
+  background: #ecf0f3;
+  border-radius: 10px;
+  padding: 40px 25px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -10px 15px #fff;
+}
+#simple-form .form-control:focus {
+  border-color: 0;
+  box-shadow: 0 0 0 0;
+  border: 1px solid #ecf0f3;
+}
+#simple-form .form-control {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+}
+#simple-form button{
+  background: var(--h);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+
+}
+#simple-form p{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--p);
+  text-align: center;
+}
+#simple-form a{
+  color: #d04949;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 2px;
+}
+#simple-form  .form-select:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0;
+}

@@ -1,0 +1,1287 @@
+/* ============Extra Large Device =============== */
+@media(min-width:1400px){
+    #our_donor .prev {
+        padding: 7px 15px;
+        left: -14px;
+    }
+    #our_donor .next {
+        padding: 7px 15px;
+        right: -54px;
+    }
+}
+
+/* ============Extra Large Device =============== */
+@media(min-width:1200px) and (max-width:1399px){
+    .profile_span {
+        width: 35%;
+    }
+    .profile_span2 {
+        width: 65%;
+    }
+    .title h2 {
+        font-size: 45px;
+    }
+    .banner_content h1 {
+        font-size: 65px;
+    }
+    .banner_content h3 {
+        font-size: 45px;
+    }
+    #about_part .about_content h4 {
+        font-size: 26px;
+    }
+    .test_col {
+        height: 300px;
+    }
+
+    .quick_Link li {
+        padding: 14px 14px;
+    }
+    .quick_Link ul {
+        margin-left: 30px;
+        margin-top: -18px;
+    }
+
+    #our_donor .prev {
+        padding: 7px 10px;
+        left: -14px;
+    }
+    #our_donor .next {
+        padding: 7px 10px;
+        right: -45px;
+    }
+
+}
+
+
+
+/* ===========Large Device============= */
+@media(min-width:992px) and (max-width:1199px){
+    .profile_span {
+        width: 34%;
+    }
+    .profile_span2 {
+        width: 66%;
+    }
+    .title h2 {
+        font-size: 45px;
+    }
+    .navbar {
+        height: 80px;
+    }
+    .login_btn {
+        margin-top: -66px;
+    }
+    .ms-5 {
+        margin-left: 0;
+    }
+    .login_btn {
+        text-align: end;
+        margin-top: 0;
+    }
+    .login_btn .login_regis{
+        padding: 9px 15px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .login_btn .help_us {
+        margin-right: 15px;
+    }
+
+    .banner_content h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    .banner_content h3 {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 38px;
+        text-align: center;
+    }
+    /* =====About Part======== */
+    #about_part .about_content h4 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    #about_part .about_content p {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .about_item_content h4 {
+        font-size: 26px;
+    }
+    .about_item_content p {
+        font-size: 16px;
+    }
+    #about_part .about_img {
+        margin-top: -210px;
+    }
+
+    /* ========Donoros Part ========= */
+    #our_donor .prev:hover{
+      color: #2d3e50;
+    }
+    #our_donor .prev {
+        padding: 7px 22px;
+        left: -10px;
+        background: transparent !important;
+    }
+    #our_donor .next:hover{
+        color: #2d3e50;
+      }
+    #our_donor .next {
+        padding: 7px 22px;
+        right: -60px;
+        background: transparent !important;
+    }
+    /* =======Donation Process ========*/
+    #donation_process {
+        padding: 80px 0;
+        
+    }
+    .process_info h4 {
+        color: var(--h);
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+
+    /* ========Testimonial part ======== */
+    .test_col {
+         height: 294px;
+    }
+
+    /* ========footer part========= */
+    .footer_item h3 {
+        font-size: 20px;
+    }
+    .footer_item_content a {
+        padding-left: 25px;
+        font-size: 15px;
+    }
+    .footer_top .footer_contact {
+        margin-left: 20px;
+    }
+    .footer_item_content {
+        margin-bottom: 20px;
+    }
+
+    .donors_content h4 {
+        font-size: 18px;
+    }
+    #donors_info .card-body {
+        padding: 4px 3px;
+    }
+    .donors_content {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .donors_content ul li {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .section-space {
+        padding: 60px 0px;
+    }
+    .blog-details h2 {
+        font-size: 40px;
+    }
+    .quick_Link h4 {
+        font-size: 20px;
+    }
+    .quick_Link ul {
+        margin-left: 35px;
+        margin-top: -20px;
+    }
+
+    #donor-profile .user_details {
+        margin: 40px 2px;
+    }
+    #donor-profile .user_details p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+}
+
+
+/* =========Medium Device ========= */
+@media(min-width:768px) and (max-width:991px){
+    .title h2 {
+        font-size: 40px;
+    }
+    .navbar {
+        height: 70px;
+    }
+    .navbar img{
+        width: 110px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        z-index: 9999;
+    }
+    .navbar-nav {
+        width: 320px;
+        background: #fff;
+        height: 100vh;
+        position: absolute;
+        top: 59px;
+        right: 0;
+        text-align: left;
+        padding-top: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        position: unset;
+    }
+    .ms-5 {
+        margin-left: 0;
+    }
+    nav .login_btn {
+        margin-left: 26px !important;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .login_btn a {
+        padding: 9px 15px;
+        color: #1e2125;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .login_btn .help_us {
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    .login_btn .login_regis {
+        width: 200px;
+    }
+
+    /* ========banner part========= */
+    .banner_content h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    .banner_content h3 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+    }
+    .banner_content a {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 16px;
+        padding: 10px 15px;
+    }
+    /* =======Avaiable Blood ========= */
+    #blood_doners {
+        padding: 70px 0 70px;
+    }
+    #about_part .about_content h4 {
+        font-size: 32px;
+        line-height:40px;
+    }
+    #about_part .about_content {
+        margin-right: 0px;
+    }
+    #about_part .about_content p {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .about_item_icon i {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 24px;
+    }
+    .about_item_content h4 {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .about_item_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #about_part .about_btn a {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-left: 38%;
+        margin-bottom: 30px;
+    }
+    #about_part .about_img img{ 
+        width: 100%;
+    }
+    #about_part {
+        padding-bottom: 60px;
+    }
+
+
+    /* =======donors part =========*/
+    #our_donor {
+        padding-bottom: 70px;
+    }
+    /* ===========counter part ============ */
+    #counter_part .counter_item .counter {
+        font-size: 30px;
+    }
+    #counter_part .counter_item h4 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    /* ===========blood donation process===========*/
+    #donation_process .process_info{
+        text-align: center;
+    }
+    #donation_process {
+        padding-top: 75px;
+        padding-bottom: 30px;
+    }
+    
+    #donation_process .process_icon {
+        height: 60px;
+        width: 60px;
+       
+    }
+    #donation_process .process_icon i {
+        font-size: 25px;
+    }
+    #donation_process .work_card::after {
+        position: unset;
+    }
+    #donation_process .second_process::before {
+        position: unset;
+    }
+    #donation_process .work_card .chevron {
+        display: none;
+    }
+    .process_info h4 {
+        color: var(--h);
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        line-height: 20px;
+    }
+    /* ==========blog part======== */
+    .sec-blog-list {
+        margin: 50px 0px;
+    }
+
+    .donors_content h4 {
+        font-size: 18px;
+    }
+    #donors_info .card-body {
+        padding: 3px 0px;
+    }
+    .donors_content {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .donors_content ul li {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    #contact_us .contact_main {
+        padding: 15px 25px;
+    }
+    #contact_us .contact_main h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #contact_us .contact_main h3 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #contact_us .left_item {
+        margin-bottom: 30px;
+    }
+    #contact_us .contact_text h4 {
+        font-size: 17px;
+    }
+    #contact_us .contact_text p {
+        font-size: 14px;
+    }
+    #contact_us .message {
+        padding: 8px 10px;
+        margin-top: 0;
+    }
+    .card-body button {
+        font-size: 18px;
+        background: #17173a;
+        width: 100%;
+    }
+
+    .section-space {
+        padding: 60px 0px;
+    }
+    .blog-details h2 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .quick_Link h4 {
+        font-size: 20px;
+    }
+    .quick_Link ul {
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+
+    .donor_profile_content h4 {
+        font-size: 26px;
+    }
+    .donor_profile_content p {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    #donor_details {
+        padding: 40px 0;
+    }
+    #donor_details .card {
+        padding: 20px 10px;
+    }
+    #donor_details .card-header h4 {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    #donor_details .caption p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #donor_details .value p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #donor-profile {
+        padding: 60px 0px;
+    }
+    #donor-profile .user_details {
+        margin: 40px 0px;
+    }
+    #donor-profile .user_details p {
+        font-size: 15px;
+        padding: 10px 0;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
+    #simple-form {
+        padding: 40px 0;
+    }
+    #simple-form .user_form {
+        padding: 20px 0px;
+    }
+    #simple-form .card-header h3 {
+        font-size: 20px;
+    }
+    .blood_item img {
+        vertical-align: middle;
+        width: 20px;
+    }
+    #blood_doners .blood_single_name {
+        font-size: 24px;
+    }
+    #blood_doners .blood_amount {
+        padding-top: 10px;
+    }
+
+}
+
+
+/* =========Small Device ============  */
+@media(min-width:576px) and (max-width:767px){
+    .title h2 {
+        font-size: 35px;
+    }
+    .navbar {
+        height: 60px;
+    }
+    img, svg {
+        vertical-align: middle;
+        width: 100px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-toggler i{
+        font-size: 25px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        z-index: 9999;
+    }
+    .navbar-nav {
+        width: 320px;
+        background: #fff;
+        height: 100vh;
+        position: absolute;
+        top: 59px;
+        right: 0;
+        text-align: left;
+        padding-top: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        position: unset;
+    }
+    nav .login_btn {
+        margin-left: 26px !important;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .login_btn a {
+        padding: 9px 15px;
+        color: #1e2125;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .login_btn .help_us {
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    .login_btn .login_regis {
+        width: 200px;
+    }
+     /* ===========Banner =========== */
+     .banner_content h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .banner_content h3 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+    }
+    .banner_content a {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 16px;
+        padding: 10px 15px;
+    }
+     /* =======Avaiable Blood======== */
+     #blood_doners {
+        padding: 70px 0 30px;
+    }
+    .title h2 {
+        font-size: 26px;
+    }
+    .title h2::after {
+        top: 35px;
+    }
+    .blood_item img{
+        vertical-align: middle;
+        width: 40px;
+    }
+    /* =======About Part========= */
+    #about_part .about_content h4 {
+        font-size: 32px;
+        line-height:40px;
+    }
+    #about_part .about_content {
+        margin-right: 0px;
+    }
+    #about_part .about_content p {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .about_item_icon i {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 24px;
+    }
+    .about_item_content h4 {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .about_item_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #about_part .about_btn a {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-left: 38%;
+        margin-bottom: 30px;
+    }
+    #about_part .about_img img{ 
+        width: 100%;
+    }
+    #about_part {
+        padding-bottom: 60px;
+    }
+
+    /* =========Our Donor========= */
+    #our_donor .donor_text_boody p {
+        font-size: 15px;
+    }
+    .donor_text_btn a i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    
+    /* ========Counter part ======== */
+    #counter_part {
+        padding-top: 60px;
+    }
+    #counter_part .counter_item {
+        padding-bottom: 25px;
+    }
+    #counter_part .counter_item .counter {
+        font-size: 28px;
+    }
+    #counter_part .counter_item h4 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+/* ===========blood donation process===========*/
+    #donation_process .process_info{
+        text-align: center;
+    }
+    #donation_process {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    
+    #donation_process .process_icon {
+        height: 50px;
+        width: 50px;
+        margin-left: 30px;
+    }
+    #donation_process .process_icon i {
+        font-size: 25px;
+    }
+    #donation_process .work_card::after {
+        position: unset;
+    }
+    #donation_process .second_process::before {
+        position: unset;
+    }
+    #donation_process .work_card .chevron {
+        display: none;
+    }
+    .process_info h4 {
+        color: var(--h);
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    /* =======Blog part======== */
+    #blog-list .thumbnail-img img{
+        width: 100%;
+    }
+    .sec-blog .thumbnail-blog a > h5, .sec-blog-list .thumbnail-blog a > h5 {
+        font-size: 20px;
+    }
+    .sec-blog .thumbnail-blog h6, .sec-blog-list .thumbnail-blog h6 {
+        font-size: 16px;
+    }
+
+    /* =========footer part========== */
+  
+    .footer_item h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .footer_item_icon a {
+        height: 33px;
+        width: 33px;
+        line-height: 33px;
+        margin: 1px;
+        font-size: 16px;
+    }
+
+    #contact_us .contact_main h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #contact_us .contact_main h3 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #contact_us .left_item {
+        margin-bottom: 30px;
+    }
+    #contact_us .contact_text h4 {
+        font-size: 17px;
+    }
+    #contact_us .contact_text p {
+        font-size: 14px;
+    }
+    #contact_us .message {
+        padding: 20px 10px;
+        margin-top: 23px;
+    }
+    .card-body button {
+        font-size: 18px;
+        background: #17173a;
+        width: 100%;
+    }
+
+    .section-space {
+        padding: 40px 0px;
+    }
+    .details-poster img {
+        width: 100%;
+    }
+    .blog-details h2 {
+        font-size: 26px;
+        line-height: 35px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-bottom: 10px;
+    }
+    .blog-details p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .quick_Link .fa-solid, .fas {
+        display: none;
+    }
+    .quick_Link li a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .quick_Link h4{
+        font-size: 20px;
+    }
+    .quick_Link ul {
+        margin-left: 19px;
+        margin-top: -20px;
+    }
+    .quick_Link li {
+        padding: 14px 8px;
+    }
+    .backToTopBtn {
+        position: fixed;
+        bottom: 50px;
+        right: 25px;
+        z-index: 1;
+        height: 38px;
+        width: 38px;
+        font-size: 18px;
+        border: none;
+        color: #fff;
+        border-radius: 100%;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .donor_profile_content h4 {
+        font-size: 26px;
+    }
+    .donor_profile_content p {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    #donor_details {
+        padding: 40px 0;
+    }
+    #donor_details .card {
+        padding: 20px 10px;
+    }
+    #donor_details .card-header h4 {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    #donor_details .card-body {
+        margin-left: 0px;
+    }
+    #donor_details .caption p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #donor_details .donor_item {
+        padding: 15px 0;
+    }
+    #donor_details .value {
+        padding-left: 15px;
+    }
+    #donor_details .value p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #donor-profile {
+        padding: 30px 0px;
+    }
+    #donor-profile .card {
+        padding: 12px 15px 0 5px;
+    }
+    #donor-profile .card-header h3 {
+        font-size: 24px;
+    }
+    #donor-profile .user_content h5 {
+        font-size: 20px;
+    }
+    #donor-profile .user_details p {
+        font-size: 16px;
+    }
+
+    #donor-profile .user_edit_form .card {
+        padding: 25px 15px;
+    }
+    #donor-profile .user_edit_form h3 {
+        font-size: 21px;
+    }
+    #donor-profile .user_edit_form{
+        margin-top: 20px;
+    }
+    #donor-profile .user_details {
+        margin: 40px;
+    }
+
+    #simple-form {
+        padding: 20px 0;
+    }
+    #simple-form .user_form {
+        margin-top: 30px;
+    }
+    #simple-form .user_form {
+        padding: 20px 0px;
+    }
+    #simple-form .card-header h3 {
+        font-size: 18px;
+    }
+    .blood_item img {
+        vertical-align: middle;
+        width: 20px;
+    }
+    #blood_doners .blood_single_name {
+        font-size: 24px;
+    }
+    #blood_doners .blood_amount {
+        padding-top: 10px;
+    }
+    #blood_doners .blood_main {
+        padding: 20px 0;
+       
+    }
+}
+
+
+
+/* ==============================
+        Extra Small Device 
+=================================== */
+ @media(max-width:575.99px){
+    
+    .navbar {
+        height: 60px;
+    }
+    img, svg {
+        vertical-align: middle;
+        width: 100px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-toggler i{
+        font-size: 25px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        z-index: 9999;
+    }
+    .navbar-nav {
+        width: 320px;
+        background: #fff;
+        height: 100vh;
+        position: absolute;
+        top: 59px;
+        right: 0;
+        text-align: left;
+        padding-top: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        position: unset;
+    }
+    .login_btn {
+        margin-top: -66px;
+    }
+    .ms-5 {
+        margin-left: 0;
+    }
+    nav .login_btn {
+        margin-left: 26px !important;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .login_btn a {
+        padding: 9px 15px;
+        color: #212529;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .login_btn .help_us {
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    .login_btn .login_regis {
+        width: 200px;
+    }
+    .banner_content h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .banner_content h3 {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    }
+    .banner_content a {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 16px;
+        padding: 10px 15px;
+    }
+
+    #blood_doners {
+        padding: 70px 0 30px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .title h2::after {
+        top: 35px;
+    }
+    .blood_item img{
+        vertical-align: middle;
+        width: 40px;
+    }
+
+    #about_part .about_content h4 {
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+    }
+    #about_part .about_content {
+        margin-right: 0px;
+    }
+    #about_part .about_content p {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .about_item_icon i {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 24px;
+    }
+    .about_item_content h4 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .about_item_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #about_part .about_btn a {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-left: 135px;
+        margin-bottom: 30px;
+    }
+    #about_part .about_img img{ 
+        width: 100%;
+    }
+    #about_part {
+        padding-bottom: 60px;
+    }
+    #our_donor .donor_item {
+        margin: 0 16px;
+    }
+    #counter_part {
+        padding-top: 60px;
+    }
+    #counter_part .counter_item {
+        padding-bottom: 25px;
+    }
+    #counter_part .counter_item .counter {
+        font-size: 28px;
+    }
+    #counter_part .counter_item h4 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+    }
+    #donation_process {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    
+    #donation_process .process_icon {
+        height: 50px;
+        width: 50px;
+        margin-left: 55px;
+    }
+    #donation_process .process_icon i {
+        font-size: 25px;
+    }
+    #donation_process .work_card::after {
+        position: unset;
+    }
+    #donation_process .second_process::before {
+        position: unset;
+    }
+    #donation_process .work_card .chevron {
+        display: none;
+    }
+    .process_info h4 {
+        color: var(--h);
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        line-height: 20px;
+    }
+    #testimonial .test_item {
+        margin-top: 75px;
+    }
+    #testimonial .test_item p {
+        line-height: 22px;
+        margin-top: 25px;
+    }
+    .sec-blog-list {
+        margin: 20px 0px;
+    }
+    .sec-blog-list img {
+        width: 100%;
+    }
+    .sec-blog .thumbnail-blog a > h5, .sec-blog-list .thumbnail-blog a > h5 {
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .footer_item p {
+        padding: 0 10px;
+    }
+    .footer_item_icon a {
+        font-size: 14px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        margin-right: 2px;
+    }
+    .foot_btm_content p {
+        line-height: 30px;
+        padding: 0 10px;
+    }
+    .footer_top .footer_contact {
+        margin-left: 10px;
+    }
+    .footer_item h3 {
+    	font-size: 17px;
+    }
+    .footer_item_content a {
+    	padding-left: 25px;
+    	font-size: 14px;
+    }
+
+    #contact_us .contact_main h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #contact_us .contact_main h3 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #contact_us .left_item {
+        margin-bottom: 30px;
+    }
+    #contact_us .contact_text h4 {
+        font-size: 17px;
+    }
+    #contact_us .contact_text p {
+        font-size: 14px;
+    }
+    #contact_us .message {
+        padding: 20px 10px;
+        margin-top: 23px;
+    }
+    .card-body button {
+        font-size: 18px;
+        background: #17173a;
+        width: 100%;
+    }
+
+    .section-space {
+        padding: 40px 0px;
+    }
+    .details-poster img {
+        height: 300px;
+        width: 450px;
+    }
+    .blog-details h2 {
+        font-size: 26px;
+        line-height: 35px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-bottom: 10px;
+    }
+    .blog-details p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .quick_Link .fa-solid, .fas {
+        display: none;
+    }
+    .quick_Link li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .quick_Link h4{
+        font-size: 18px;
+    }
+    .quick_Link ul {
+        margin-left: -80px;
+        margin-top: 16px;
+    }
+    .quick_Link li {
+        padding: 14px 8px;
+    }
+    .backToTopBtn {
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        z-index: 1;
+        height: 35px;
+        width: 35px;
+        font-size: 18px;
+        border: none;
+        color: #fff;
+        border-radius: 100%;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .donor_profile_content h4 {
+        font-size: 25px;
+    }
+    .donor_profile_content p {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    #donor_details {
+        padding: 30px 0;
+    }
+    #donor_details .card {
+        padding: 20px 0px;
+    }
+    #donor_details .card-header h4 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+    #donor_details .card-body {
+        margin-left: 0px;
+    }
+    #donor_details .caption p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #donor_details .donor_item {
+        padding: 15px 0;
+    }
+    #donor_details .value {
+        padding-left: 15px;
+        width: 50%;
+    }
+    #donor_details .caption {
+        width: 50%;
+    }
+    #donor_details .value p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #donor-profile {
+        padding: 30px 0px;
+    }
+    #donor-profile .card {
+        padding: 12px 15px 0 5px;
+    }
+    #donor-profile .card-header h3 {
+        font-size: 24px;
+    }
+    #donor-profile .user_content h5 {
+        font-size: 20px;
+    }
+    #donor-profile .user_details p {
+        font-size: 14px;
+    }
+
+    #donor-profile .user_edit_form .card {
+        padding: 25px 15px;
+    }
+    #donor-profile .user_edit_form h3 {
+        font-size: 21px;
+    }
+    #donor-profile .user_edit_form{
+        margin-top: 20px;
+    }
+
+    #simple-form {
+        padding: 20px 0;
+    }
+    #simple-form .user_form {
+        margin-top: 30px;
+    }
+    #simple-form .user_form {
+        padding: 18px 0px;
+    }
+    #simple-form .card-header h3 {
+        font-size: 18px;
+    }
+    .blood_item img {
+        vertical-align: middle;
+        width: 20px;
+    }
+    #blood_doners .blood_single_name {
+        font-size: 24px;
+    }
+    #blood_doners .blood_amount {
+        padding-top: 10px;
+    }
+    #blood_doners .blood_main {
+        padding: 20px 0;
+    }
+ }
+
+
